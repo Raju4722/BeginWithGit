@@ -19,7 +19,7 @@ import com.todolist.todolists.todo.Todo;
 @Controller
 
 public class controlcalass {
-
+int a=0;
 private serviceclass service;
 public controlcalass(serviceclass service) {
 	super();
