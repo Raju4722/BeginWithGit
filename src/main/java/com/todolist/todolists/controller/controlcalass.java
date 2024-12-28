@@ -35,6 +35,7 @@ public String gotolists(ModelMap model) {
 public String adding(ModelMap model) {
 	Todo todo = new Todo(1,getloginusername(model),"rew",6,LocalDate.now().plusYears(2));
 	model.put("todos", todo);
+	System.out.println();
 	return "adding";
 }
 @PostMapping("addtodo")
